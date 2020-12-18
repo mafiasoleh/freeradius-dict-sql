@@ -1,0 +1,20 @@
+INSERT INTO "freeradius_dict_attribute" ("name", "number", "type", "description")
+VALUES 
+('Mobile-Node-Identifier','145','octets','rfc6572 http://www.ietf.org/rfc/rfc6572.txt'),
+('Service-Selection','146','string','rfc6572 http://www.ietf.org/rfc/rfc6572.txt'),
+('PMIP6-Home-LMA-IPv6-Address','147','ipv6addr','rfc6572 http://www.ietf.org/rfc/rfc6572.txt'),
+('PMIP6-Visited-LMA-IPv6-Address','148','ipv6addr','rfc6572 http://www.ietf.org/rfc/rfc6572.txt'),
+('PMIP6-Home-LMA-IPv4-Address','149','ipaddr','rfc6572 http://www.ietf.org/rfc/rfc6572.txt'),
+('PMIP6-Visited-LMA-IPv4-Address','150','ipaddr','rfc6572 http://www.ietf.org/rfc/rfc6572.txt'),
+('PMIP6-Home-HN-Prefix','151','ipv6prefix','rfc6572 http://www.ietf.org/rfc/rfc6572.txt'),
+('PMIP6-Visited-HN-Prefix','152','ipv6prefix','rfc6572 http://www.ietf.org/rfc/rfc6572.txt'),
+('PMIP6-Home-Interface-ID','153','ifid','rfc6572 http://www.ietf.org/rfc/rfc6572.txt'),
+('PMIP6-Visited-Interface-ID','154','ifid','rfc6572 http://www.ietf.org/rfc/rfc6572.txt'),
+('PMIP6-Home-IPv4-HoA','155','ipv4prefix','rfc6572 http://www.ietf.org/rfc/rfc6572.txt'),
+('PMIP6-Visited-IPv4-HoA','156','ipv4prefix','rfc6572 http://www.ietf.org/rfc/rfc6572.txt'),
+('PMIP6-Home-DHCP4-Server-Address','157','ipaddr','rfc6572 http://www.ietf.org/rfc/rfc6572.txt'),
+('PMIP6-Visited-DHCP4-Server-Address','158','ipaddr','rfc6572 http://www.ietf.org/rfc/rfc6572.txt'),
+('PMIP6-Home-DHCP6-Server-Address','159','ipv6addr','rfc6572 http://www.ietf.org/rfc/rfc6572.txt'),
+('PMIP6-Visited-DHCP6-Server-Address','160','ipv6addr','rfc6572 http://www.ietf.org/rfc/rfc6572.txt'),
+('PMIP6-Home-IPv4-Gateway','161','ipaddr','rfc6572 http://www.ietf.org/rfc/rfc6572.txt'),
+('PMIP6-Visited-IPv4-Gateway','162','ipaddr','rfc6572 http://www.ietf.org/rfc/rfc6572.txt');

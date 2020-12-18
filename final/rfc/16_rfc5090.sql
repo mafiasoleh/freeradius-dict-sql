@@ -1,0 +1,22 @@
+INSERT INTO "freeradius_dict_attribute" ("name", "number", "type", "description")
+VALUES 
+('Digest-Response','103','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('Digest-Realm','104','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('Digest-Nonce','105','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('Digest-Response-Auth','106','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('Digest-Nextnonce','107','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('Digest-Method','108','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('Digest-URI','109','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('Digest-Qop','110','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('Digest-Algorithm','111','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('Digest-Entity-Body-Hash','112','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('Digest-CNonce','113','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('Digest-Nonce-Count','114','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('Digest-Username','115','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('Digest-Opaque','116','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('Digest-Auth-Param','117','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('Digest-AKA-Auts','118','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('Digest-Domain','119','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('Digest-Stale','120','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('Digest-HA1','121','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt'),
+('SIP-AOR','122','string','rfc5090 http://www.ietf.org/rfc/rfc5090.txt');

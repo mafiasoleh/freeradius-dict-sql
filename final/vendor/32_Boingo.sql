@@ -1,0 +1,35 @@
+INSERT INTO "vendors" ("id", "name", "number", "description")
+VALUES
+(22472,'Boingo',22472,'Boingo Wi-Fi');
+
+INSERT INTO "attributes" ("vendor_id", "name", "number", "type", "description")
+VALUES 
+(22472,'BW-Venue-Id','7','string','Boingo Wi-Fi'),
+(22472,'BW-Venue-TZ','8','string','Boingo Wi-Fi'),
+(22472,'BW-Service-Type','9','string','Boingo Wi-Fi'),
+(22472,'BW-Class','10','string','Boingo Wi-Fi'),
+(22472,'BW-Venue-Description','11','string','Boingo Wi-Fi'),
+(22472,'BW-Venue-Price-Type','12','string','Boingo Wi-Fi'),
+(22472,'BW-Venue-Port-Type','13','string','Boingo Wi-Fi'),
+(22472,'BW-ISO-Country-Code','14','string','Boingo Wi-Fi'),
+(22472,'BW-e164-Country-Code','15','string','Boingo Wi-Fi'),
+(22472,'BW-State-Name','16','string','Boingo Wi-Fi'),
+(22472,'BW-City-Name','17','string','Boingo Wi-Fi'),
+(22472,'BW-Area-Code','18','integer','Boingo Wi-Fi'),
+(22472,'CL-Brand','19','string','Boingo Wi-Fi'),
+(22472,'CL-Software-Version','20','string','Boingo Wi-Fi'),
+(22472,'CL-Reg-Number','21','string','Boingo Wi-Fi'),
+(22472,'CL-Method-Version','22','string','Boingo Wi-Fi'),
+(22472,'CL-Token-Version','23','string','Boingo Wi-Fi'),
+(22472,'CL-APDB-Version','24','string','Boingo Wi-Fi'),
+(22472,'CL-User-Agent','25','string','Boingo Wi-Fi'),
+(22472,'CL-SSC','26','string','Boingo Wi-Fi'),
+(22472,'BW-User-Group','27','string','Boingo Wi-Fi'),
+(22472,'BW-Venue-Name','29','string','Boingo Wi-Fi'),
+(22472,'BW-Category','30','string','Boingo Wi-Fi'),
+(22472,'BW-User-Role','32','string','Boingo Wi-Fi'),
+(22472,'BW-User-Name','33','string','Boingo Wi-Fi'),
+(22472,'BW-User-Password','34','string','Boingo Wi-Fi'),
+(22472,'BW-User-Prefix','35','string','Boingo Wi-Fi'),
+(22472,'BW-User-Realm','36','string','Boingo Wi-Fi'),
+(22472,'BW-Operator-Name','37','string','Boingo Wi-Fi'),
